@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BEB2381710AE35B23761E9FBFE5F4FDF30FC1135" : 0,
+    "099AD0F878D09EEB93D76E91877F9A89C20396D5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AFE75A00-2594-4FEB-B8F2-E718652FA633",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BEB2381710AE35B23761E9FBFE5F4FDF30FC1135" : "Syml%20Theme%20Editor\/Markdown%20Parser\/RegexKitLite\/",
+    "099AD0F878D09EEB93D76E91877F9A89C20396D5" : "..\/..\/Personal\/Components\/SYMLMarkdownParser"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Syml Theme Editor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Syml Theme Editor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/inquisitiveSoft\/SYMLMarkdownParser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "099AD0F878D09EEB93D76E91877F9A89C20396D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/inquisitiveSoft\/RegexKitLite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEB2381710AE35B23761E9FBFE5F4FDF30FC1135"
+    }
+  ]
+}

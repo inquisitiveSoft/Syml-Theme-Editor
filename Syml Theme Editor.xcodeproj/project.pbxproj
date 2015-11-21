@@ -7,26 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A7334551BFFD0D300802207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334541BFFD0D300802207 /* AppDelegate.m */; };
 		4A7334581BFFD0D300802207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334571BFFD0D300802207 /* main.m */; };
-		4A73345B1BFFD0D300802207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73345A1BFFD0D300802207 /* ViewController.m */; };
-		4A73345E1BFFD0D300802207 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73345D1BFFD0D300802207 /* Document.m */; };
 		4A7334601BFFD0D300802207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A73345F1BFFD0D300802207 /* Assets.xcassets */; };
-		4A7334631BFFD0D300802207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7334611BFFD0D300802207 /* Main.storyboard */; };
+		4A73346B1BFFD11D00802207 /* Theme Window.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A73346A1BFFD11D00802207 /* Theme Window.storyboard */; };
+		4A73346E1BFFD21000802207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73346D1BFFD21000802207 /* AppDelegate.swift */; };
+		4A7334731BFFD24100802207 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334701BFFD24100802207 /* TextViewController.swift */; };
+		4A7334741BFFD24100802207 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334711BFFD24100802207 /* ThemeViewController.swift */; };
+		4A7334881BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334771BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m */; };
+		4A7334891BFFD33300802207 /* NSString+SubstringWithUntestedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334791BFFD33300802207 /* NSString+SubstringWithUntestedRange.m */; };
+		4A73348A1BFFD33300802207 /* SYMLMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73347E1BFFD33300802207 /* SYMLMarkdownParser.m */; };
+		4A73348B1BFFD33300802207 /* SYMLMarkdownTextFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334811BFFD33300802207 /* SYMLMarkdownTextFormatter.m */; };
+		4A73348C1BFFD33300802207 /* SYMLRangeFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334831BFFD33300802207 /* SYMLRangeFunctions.m */; };
+		4A73348D1BFFD33300802207 /* SYMLTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334851BFFD33300802207 /* SYMLTextElement.m */; };
+		4A73348E1BFFD33300802207 /* SYMLTextElementsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334871BFFD33300802207 /* SYMLTextElementsCollection.m */; };
+		4A7334911BFFD33D00802207 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334901BFFD33D00802207 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4A7334941BFFD48A00802207 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7334931BFFD48A00802207 /* libicucore.tbd */; };
+		4A7334971BFFD62E00802207 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A7334951BFFD62100802207 /* README.md */; };
+		4A7334991BFFD7AF00802207 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334981BFFD7AF00802207 /* Theme.swift */; };
+		4A7334B81BFFDD7B00802207 /* Main Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */; };
+		4A7334C41BFFEDAE00802207 /* ThemeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A7334501BFFD0D300802207 /* Syml Theme Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Syml Theme Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A7334531BFFD0D300802207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A7334541BFFD0D300802207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A7334571BFFD0D300802207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A7334591BFFD0D300802207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A73345A1BFFD0D300802207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4A73345C1BFFD0D300802207 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		4A73345D1BFFD0D300802207 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		4A73345F1BFFD0D300802207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A7334621BFFD0D300802207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7334641BFFD0D300802207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A73346A1BFFD11D00802207 /* Theme Window.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Theme Window.storyboard"; path = "../../../../Personal/Components/SYMLMarkdownParser/Example Mac App/Theme Window.storyboard"; sourceTree = "<group>"; };
+		4A73346C1BFFD20F00802207 /* Syml Theme Editor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Syml Theme Editor-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A73346D1BFFD21000802207 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A7334701BFFD24100802207 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		4A7334711BFFD24100802207 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		4A7334761BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+RangeForAttributedString.h"; path = "Markdown Parser/NSMutableAttributedString+RangeForAttributedString.h"; sourceTree = "<group>"; };
+		4A7334771BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+RangeForAttributedString.m"; path = "Markdown Parser/NSMutableAttributedString+RangeForAttributedString.m"; sourceTree = "<group>"; };
+		4A7334781BFFD33300802207 /* NSString+SubstringWithUntestedRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SubstringWithUntestedRange.h"; path = "Markdown Parser/NSString+SubstringWithUntestedRange.h"; sourceTree = "<group>"; };
+		4A7334791BFFD33300802207 /* NSString+SubstringWithUntestedRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SubstringWithUntestedRange.m"; path = "Markdown Parser/NSString+SubstringWithUntestedRange.m"; sourceTree = "<group>"; };
+		4A73347A1BFFD33300802207 /* SYMLAttributedObjectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLAttributedObjectCollection.h; path = "Markdown Parser/SYMLAttributedObjectCollection.h"; sourceTree = "<group>"; };
+		4A73347C1BFFD33300802207 /* SYMLMarkdownParser-Internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SYMLMarkdownParser-Internals.h"; path = "Markdown Parser/SYMLMarkdownParser-Internals.h"; sourceTree = "<group>"; };
+		4A73347D1BFFD33300802207 /* SYMLMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLMarkdownParser.h; path = "Markdown Parser/SYMLMarkdownParser.h"; sourceTree = "<group>"; };
+		4A73347E1BFFD33300802207 /* SYMLMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMLMarkdownParser.m; path = "Markdown Parser/SYMLMarkdownParser.m"; sourceTree = "<group>"; };
+		4A73347F1BFFD33300802207 /* SYMLMarkdownParserAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLMarkdownParserAttributes.h; path = "Markdown Parser/SYMLMarkdownParserAttributes.h"; sourceTree = "<group>"; };
+		4A7334801BFFD33300802207 /* SYMLMarkdownTextFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLMarkdownTextFormatter.h; path = "Markdown Parser/SYMLMarkdownTextFormatter.h"; sourceTree = "<group>"; };
+		4A7334811BFFD33300802207 /* SYMLMarkdownTextFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMLMarkdownTextFormatter.m; path = "Markdown Parser/SYMLMarkdownTextFormatter.m"; sourceTree = "<group>"; };
+		4A7334821BFFD33300802207 /* SYMLRangeFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLRangeFunctions.h; path = "Markdown Parser/SYMLRangeFunctions.h"; sourceTree = "<group>"; };
+		4A7334831BFFD33300802207 /* SYMLRangeFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMLRangeFunctions.m; path = "Markdown Parser/SYMLRangeFunctions.m"; sourceTree = "<group>"; };
+		4A7334841BFFD33300802207 /* SYMLTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLTextElement.h; path = "Markdown Parser/SYMLTextElement.h"; sourceTree = "<group>"; };
+		4A7334851BFFD33300802207 /* SYMLTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMLTextElement.m; path = "Markdown Parser/SYMLTextElement.m"; sourceTree = "<group>"; };
+		4A7334861BFFD33300802207 /* SYMLTextElementsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMLTextElementsCollection.h; path = "Markdown Parser/SYMLTextElementsCollection.h"; sourceTree = "<group>"; };
+		4A7334871BFFD33300802207 /* SYMLTextElementsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMLTextElementsCollection.m; path = "Markdown Parser/SYMLTextElementsCollection.m"; sourceTree = "<group>"; };
+		4A73348F1BFFD33D00802207 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "Markdown Parser/RegexKitLite/RegexKitLite/RegexKitLite.h"; sourceTree = "<group>"; };
+		4A7334901BFFD33D00802207 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "Markdown Parser/RegexKitLite/RegexKitLite/RegexKitLite.m"; sourceTree = "<group>"; };
+		4A7334931BFFD48A00802207 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4A7334951BFFD62100802207 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4A7334981BFFD7AF00802207 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main Menu.storyboard"; sourceTree = "<group>"; };
+		4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7334941BFFD48A00802207 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4A7334521BFFD0D300802207 /* Syml Theme Editor */,
+				4A7334751BFFD32600802207 /* SYMLMarkdownParser */,
 				4A7334511BFFD0D300802207 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,15 +96,13 @@
 		4A7334521BFFD0D300802207 /* Syml Theme Editor */ = {
 			isa = PBXGroup;
 			children = (
-				4A7334531BFFD0D300802207 /* AppDelegate.h */,
-				4A7334541BFFD0D300802207 /* AppDelegate.m */,
-				4A7334591BFFD0D300802207 /* ViewController.h */,
-				4A73345A1BFFD0D300802207 /* ViewController.m */,
-				4A73345C1BFFD0D300802207 /* Document.h */,
-				4A73345D1BFFD0D300802207 /* Document.m */,
-				4A73345F1BFFD0D300802207 /* Assets.xcassets */,
-				4A7334611BFFD0D300802207 /* Main.storyboard */,
-				4A7334641BFFD0D300802207 /* Info.plist */,
+				4A73346D1BFFD21000802207 /* AppDelegate.swift */,
+				4A7334981BFFD7AF00802207 /* Theme.swift */,
+				4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */,
+				4A7334701BFFD24100802207 /* TextViewController.swift */,
+				4A7334711BFFD24100802207 /* ThemeViewController.swift */,
+				4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */,
+				4A73346A1BFFD11D00802207 /* Theme Window.storyboard */,
 				4A7334561BFFD0D300802207 /* Supporting Files */,
 			);
 			path = "Syml Theme Editor";
@@ -76,9 +111,48 @@
 		4A7334561BFFD0D300802207 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A7334951BFFD62100802207 /* README.md */,
+				4A73345F1BFFD0D300802207 /* Assets.xcassets */,
+				4A7334641BFFD0D300802207 /* Info.plist */,
 				4A7334571BFFD0D300802207 /* main.m */,
+				4A73346C1BFFD20F00802207 /* Syml Theme Editor-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7334751BFFD32600802207 /* SYMLMarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				4A7334761BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.h */,
+				4A7334771BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m */,
+				4A7334781BFFD33300802207 /* NSString+SubstringWithUntestedRange.h */,
+				4A7334791BFFD33300802207 /* NSString+SubstringWithUntestedRange.m */,
+				4A73347A1BFFD33300802207 /* SYMLAttributedObjectCollection.h */,
+				4A73347C1BFFD33300802207 /* SYMLMarkdownParser-Internals.h */,
+				4A73347D1BFFD33300802207 /* SYMLMarkdownParser.h */,
+				4A73347E1BFFD33300802207 /* SYMLMarkdownParser.m */,
+				4A73347F1BFFD33300802207 /* SYMLMarkdownParserAttributes.h */,
+				4A7334801BFFD33300802207 /* SYMLMarkdownTextFormatter.h */,
+				4A7334811BFFD33300802207 /* SYMLMarkdownTextFormatter.m */,
+				4A7334821BFFD33300802207 /* SYMLRangeFunctions.h */,
+				4A7334831BFFD33300802207 /* SYMLRangeFunctions.m */,
+				4A7334841BFFD33300802207 /* SYMLTextElement.h */,
+				4A7334851BFFD33300802207 /* SYMLTextElement.m */,
+				4A7334861BFFD33300802207 /* SYMLTextElementsCollection.h */,
+				4A7334871BFFD33300802207 /* SYMLTextElementsCollection.m */,
+				4A7334921BFFD34000802207 /* RegexKitLite */,
+			);
+			name = SYMLMarkdownParser;
+			sourceTree = "<group>";
+		};
+		4A7334921BFFD34000802207 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				4A7334931BFFD48A00802207 /* libicucore.tbd */,
+				4A73348F1BFFD33D00802207 /* RegexKitLite.h */,
+				4A7334901BFFD33D00802207 /* RegexKitLite.m */,
+			);
+			name = RegexKitLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7334601BFFD0D300802207 /* Assets.xcassets in Resources */,
-				4A7334631BFFD0D300802207 /* Main.storyboard in Resources */,
+				4A73346B1BFFD11D00802207 /* Theme Window.storyboard in Resources */,
+				4A7334971BFFD62E00802207 /* README.md in Resources */,
+				4A7334B81BFFDD7B00802207 /* Main Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,25 +226,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A73345E1BFFD0D300802207 /* Document.m in Sources */,
-				4A73345B1BFFD0D300802207 /* ViewController.m in Sources */,
+				4A7334911BFFD33D00802207 /* RegexKitLite.m in Sources */,
+				4A73348D1BFFD33300802207 /* SYMLTextElement.m in Sources */,
+				4A7334881BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m in Sources */,
+				4A73348C1BFFD33300802207 /* SYMLRangeFunctions.m in Sources */,
+				4A7334891BFFD33300802207 /* NSString+SubstringWithUntestedRange.m in Sources */,
+				4A7334741BFFD24100802207 /* ThemeViewController.swift in Sources */,
+				4A73348E1BFFD33300802207 /* SYMLTextElementsCollection.m in Sources */,
+				4A7334C41BFFEDAE00802207 /* ThemeWindowController.swift in Sources */,
+				4A7334731BFFD24100802207 /* TextViewController.swift in Sources */,
+				4A73348A1BFFD33300802207 /* SYMLMarkdownParser.m in Sources */,
+				4A73348B1BFFD33300802207 /* SYMLMarkdownTextFormatter.m in Sources */,
+				4A73346E1BFFD21000802207 /* AppDelegate.swift in Sources */,
+				4A7334991BFFD7AF00802207 /* Theme.swift in Sources */,
 				4A7334581BFFD0D300802207 /* main.m in Sources */,
-				4A7334551BFFD0D300802207 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4A7334611BFFD0D300802207 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A7334621BFFD0D300802207 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A7334651BFFD0D300802207 /* Debug */ = {
@@ -254,11 +329,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Syml Theme Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inquisitiveSoftware.Syml-Theme-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Syml Theme Editor/Syml Theme Editor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -266,11 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Syml Theme Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inquisitiveSoftware.Syml-Theme-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Syml Theme Editor/Syml Theme Editor-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -293,6 +373,7 @@
 				4A7334691BFFD0D300802207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

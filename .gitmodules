@@ -1,0 +1,3 @@
+[submodule "Markdown Parser/RegexKitLite"]
+	path = Markdown Parser/RegexKitLite
+	url = git://github.com/inquisitiveSoft/RegexKitLite.git

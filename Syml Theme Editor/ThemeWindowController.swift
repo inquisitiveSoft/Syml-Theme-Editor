@@ -23,6 +23,13 @@ class ThemeWindowController: NSWindowController {
 		}
 	}
 	
+	override func windowDidLoad() {
+		super.windowDidLoad()
+		
+		window?.setContentSize(NSSize(width: 880.0, height: 560.0))
+	}
+	
+	
 	override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?) {
 		super.prepareForSegue(segue, sender: sender)
 		

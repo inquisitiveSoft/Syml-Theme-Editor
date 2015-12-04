@@ -14,7 +14,9 @@ let colorsObserverContext = "observe.colors"
 
 
 class TextViewController: NSViewController, NSTextViewDelegate, ThemeViewControllerProtocol {
+	@IBOutlet weak var borderView: STEView!
 	@IBOutlet var textView: NSTextView!
+	
 	dynamic var theme: Theme? {
 		didSet {
 			theme?.colorsArrayController.addObserver(self, forKeyPath: colorsArrayKey, options: [], context: nil)
@@ -55,6 +57,16 @@ class TextViewController: NSViewController, NSTextViewDelegate, ThemeViewControl
 	
 	func applySyntaxHighlighting() {
 		if let theme = theme {
+			let backgroundColor = theme.backgroundColor
+			textView.backgroundColor = backgroundColor
+			
+			textView.insertionPointColor = theme.caretColor
+			textView.selectedTextAttributes = [
+				NSBackgroundColorAttributeName : theme.selectionColor
+			]
+			
+			borderView.backgroundColor = theme.borderColor
+			
 			let selectedRange = textView.selectedRange()
 			let attributedString = theme.markdownTextFormatter.formatString(textView.string)
 			textView.textStorage?.setAttributedString(attributedString)

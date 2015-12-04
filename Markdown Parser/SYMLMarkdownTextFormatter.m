@@ -18,7 +18,7 @@
 #import "NSMutableAttributedString+RangeForAttributedString.h"
 
 #include "TargetConditionals.h"
-#import "Syml Theme Editor-Bridging-Header.h"
+#import "Syml_Theme_Editor-Swift.h"
 
 
 @import AppKit;
@@ -30,14 +30,6 @@
 
 
 - (SYMLMarkdownTextFormatter *)initWithThemeColors:(NSArray *)themeColors
-{
-	SYMLMarkdownTextFormatter *markdownTextFormatter = [[SYMLMarkdownTextFormatter alloc] init];
- 	
-	return markdownTextFormatter;
-}
-
-
-- (instancetype)init
 {
 	self = [super init];
 	
@@ -53,53 +45,76 @@
 		headingParagraphStyle.lineHeightMultiple = 1.6;
 		headingParagraphStyle.lineSpacing = 8.0;
 		
+		NSMutableDictionary *colorsDictionary = [[NSMutableDictionary alloc] initWithCapacity:themeColors.count];
+		
+		for(ThemeColor *color in themeColors) {
+			colorsDictionary[color.label] = color.color;
+		}
+		
+		
 		
 		_baseAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.3 green:0.3 blue:0.3 alpha:1],
+			NSForegroundColorAttributeName				: colorsDictionary[@"baseColor"],
 			NSParagraphStyleAttributeName				: baseParagraphStyle
 		};
 	
 		_headingAttributes = @{
 			NSFontAttributeName							: headingFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.089 green:0.547 blue:0.695 alpha:1.0],
+			NSForegroundColorAttributeName				: colorsDictionary[@"headingColor"],
 			NSParagraphStyleAttributeName				: headingParagraphStyle
 		};
-	
+		
 		_horizontalRuleAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.010 green:0.157 blue:0.430 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"horizontalRuleColor"],
 		};
 	
 		_blockquoteAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.537 green:0.275 blue:0.140 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"blockquoteColor"],
 		};
 	
-		_listAttributes = @{
+		_listElementAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.207 green:0.549 blue:0.69 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"listBulletColor"],
+		};
+		
+		_listLineAttributes = @{
+			NSFontAttributeName							: baseFont,
+			NSForegroundColorAttributeName				: colorsDictionary[@"listLineColor"],
 		};
 	
 		_linkAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.010 green:0.157 blue:0.430 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"linkColor"],
+		};
+		
+		_invalidLinkAttributes = @{
+			NSFontAttributeName							: baseFont,
+			NSForegroundColorAttributeName				: colorsDictionary[@"invalidLinkColor"],
 		};
 		
 		_urlAttributes = @{
 		   NSFontAttributeName							: baseFont,
-		   NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.55 green:0.55 blue:0.3 alpha:1.0],
+		   NSForegroundColorAttributeName				: colorsDictionary[@"urlColor"],
+		   NSUnderlineStyleAttributeName				: @(NSUnderlineStyleSingle)
+		};
+		
+		_linkTagAttributes = @{
+		   NSFontAttributeName							: baseFont,
+		   NSForegroundColorAttributeName				: colorsDictionary[@"linkTagColor"],
 		   NSUnderlineStyleAttributeName				: @(NSUnderlineStyleSingle)
 		};
 	
 		_emphasisAttributes = @{
 			NSFontAttributeName							: baseFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.227 green:0.381 blue:0.063 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"emphasisColor"],
 		};
 
 		_strongAttributes = @{
 			NSFontAttributeName							: boldFont,
-			NSForegroundColorAttributeName				: [NSColor colorWithCalibratedRed:0.227 green:0.381 blue:0.063 alpha:1.0]
+			NSForegroundColorAttributeName				: colorsDictionary[@"strongColor"],
 		};
 	}
 	

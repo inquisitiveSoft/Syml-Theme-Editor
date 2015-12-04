@@ -1,0 +1,9 @@
+{
+    "identifier" : "{{themeIdentifier}}",
+    "name" : "{{themeName}}",
+    "attribution" : "{{attributionName}}",
+    "attributionText" : "{{attributionText}}",
+    "link" : "{{attributionLink}}",
+	
+{{themeColors}}
+}

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3EC5C41C115F5F00DE0BAA /* Theme Window.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EC5C31C115F5F00DE0BAA /* Theme Window.storyboard */; };
 		4A7334581BFFD0D300802207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334571BFFD0D300802207 /* main.m */; };
 		4A7334601BFFD0D300802207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A73345F1BFFD0D300802207 /* Assets.xcassets */; };
-		4A73346B1BFFD11D00802207 /* Theme Window.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A73346A1BFFD11D00802207 /* Theme Window.storyboard */; };
 		4A73346E1BFFD21000802207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73346D1BFFD21000802207 /* AppDelegate.swift */; };
 		4A7334731BFFD24100802207 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334701BFFD24100802207 /* TextViewController.swift */; };
 		4A7334741BFFD24100802207 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334711BFFD24100802207 /* ThemeViewController.swift */; };
@@ -26,14 +26,17 @@
 		4A7334991BFFD7AF00802207 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334981BFFD7AF00802207 /* Theme.swift */; };
 		4A7334B81BFFDD7B00802207 /* Main Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */; };
 		4A7334C41BFFEDAE00802207 /* ThemeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */; };
+		4A7334C61C00CD8F00802207 /* Template.symlTheme in Resources */ = {isa = PBXBuildFile; fileRef = 4A7334C51C00CD8E00802207 /* Template.symlTheme */; };
+		4A7334C81C00D16D00802207 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334C71C00D16D00802207 /* NSColor.swift */; };
+		4A7334CA1C00F32800802207 /* STEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7334C91C00F32800802207 /* STEView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A3EC5C31C115F5F00DE0BAA /* Theme Window.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Theme Window.storyboard"; sourceTree = "<group>"; };
 		4A7334501BFFD0D300802207 /* Syml Theme Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Syml Theme Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7334571BFFD0D300802207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A73345F1BFFD0D300802207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7334641BFFD0D300802207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A73346A1BFFD11D00802207 /* Theme Window.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Theme Window.storyboard"; path = "../../../../Personal/Components/SYMLMarkdownParser/Example Mac App/Theme Window.storyboard"; sourceTree = "<group>"; };
 		4A73346C1BFFD20F00802207 /* Syml Theme Editor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Syml Theme Editor-Bridging-Header.h"; sourceTree = "<group>"; };
 		4A73346D1BFFD21000802207 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A7334701BFFD24100802207 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +65,9 @@
 		4A7334981BFFD7AF00802207 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main Menu.storyboard"; sourceTree = "<group>"; };
 		4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeWindowController.swift; sourceTree = "<group>"; };
+		4A7334C51C00CD8E00802207 /* Template.symlTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Template.symlTheme; sourceTree = "<group>"; };
+		4A7334C71C00D16D00802207 /* NSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
+		4A7334C91C00F32800802207 /* STEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STEView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,10 @@
 				4A7334C31BFFEDAE00802207 /* ThemeWindowController.swift */,
 				4A7334701BFFD24100802207 /* TextViewController.swift */,
 				4A7334711BFFD24100802207 /* ThemeViewController.swift */,
+				4A7334C71C00D16D00802207 /* NSColor.swift */,
+				4A7334C91C00F32800802207 /* STEView.swift */,
 				4A7334B71BFFDD7B00802207 /* Main Menu.storyboard */,
-				4A73346A1BFFD11D00802207 /* Theme Window.storyboard */,
+				4A3EC5C31C115F5F00DE0BAA /* Theme Window.storyboard */,
 				4A7334561BFFD0D300802207 /* Supporting Files */,
 			);
 			path = "Syml Theme Editor";
@@ -116,6 +124,7 @@
 				4A7334641BFFD0D300802207 /* Info.plist */,
 				4A7334571BFFD0D300802207 /* main.m */,
 				4A73346C1BFFD20F00802207 /* Syml Theme Editor-Bridging-Header.h */,
+				4A7334C51C00CD8E00802207 /* Template.symlTheme */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,8 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7334601BFFD0D300802207 /* Assets.xcassets in Resources */,
-				4A73346B1BFFD11D00802207 /* Theme Window.storyboard in Resources */,
 				4A7334971BFFD62E00802207 /* README.md in Resources */,
+				4A3EC5C41C115F5F00DE0BAA /* Theme Window.storyboard in Resources */,
+				4A7334C61C00CD8F00802207 /* Template.symlTheme in Resources */,
 				4A7334B81BFFDD7B00802207 /* Main Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7334911BFFD33D00802207 /* RegexKitLite.m in Sources */,
+				4A7334C81C00D16D00802207 /* NSColor.swift in Sources */,
 				4A73348D1BFFD33300802207 /* SYMLTextElement.m in Sources */,
 				4A7334881BFFD33300802207 /* NSMutableAttributedString+RangeForAttributedString.m in Sources */,
 				4A73348C1BFFD33300802207 /* SYMLRangeFunctions.m in Sources */,
@@ -240,6 +251,7 @@
 				4A73346E1BFFD21000802207 /* AppDelegate.swift in Sources */,
 				4A7334991BFFD7AF00802207 /* Theme.swift in Sources */,
 				4A7334581BFFD0D300802207 /* main.m in Sources */,
+				4A7334CA1C00F32800802207 /* STEView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
